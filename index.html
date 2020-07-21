@@ -34,63 +34,82 @@
 
     <main>
       <section id="welcome" class="hero">
+        <img
+          src="img/background-image.jpg"
+          alt="two-person-speaking-over-computers"
+          class="hero__background-picture"
+        />
         <h1 class="hero__title">
           Let's build something
           <span class="hero_title--yellow">great</span> together!
         </h1>
-        <p class="hero__description">Web developer</p>
+        <p class="hero__description">Web developer from Paris</p>
       </section>
       <section class="transition">
-        <p class="transition__text">Take a quick look at my best projects</p>
+        <p class="transition__text">
+          Take a quick look at some of my best projects
+        </p>
         <div class="transition__arrow-down"></div>
       </section>
 
       <section id="projects" class="projects">
-        <div class="projects__item">
-          <h2 class="projects__title" class="projects-title">
-            Technical Documentation
-          </h2>
-          <img src="img/manual.jpg" alt="manual-opened" class="projects_img" />
-          <p class="projects__description">
-            Javascript's technical documentation made for freeCodeCamp's
-            Responsive Web Design Certification
-          </p>
-          <a
-            href="https://dimitridasilva.github.io/FCC-Technical-Documentation-Page.github.io/"
-            target="_blank"
-            rel="noopener noreferrer"
-            ><img
-              src="/img/external-logo-icon.svg"
-              alt="external-logo-icon"
-              class="projects__icons"
-          /></a>
-          <a
-            href="https://github.com/DimitriDaSilva/FCC-Technical-Documentation-Page.github.io"
-            target="_blank"
-            rel="noopener noreferrer"
-            ><img
-              src="/img/gituhub-logo.svg"
-              alt="gituhub-logo"
-              class="projects__icons"
-          /></a>
+        <h2 class="projects__header">My work</h2>
+        <div class="projects__items">
+          <div class="projects__background">
+            <img
+              src="img/manual.jpg"
+              alt="manual-opened"
+              class="projects__background-img"
+            />
+            <div class="projects__background-color"></div>
+          </div>
+          <div class="projects__content">
+            <div class="projects__highlight">
+              <h2 class="projects__title" class="projects-title">
+                Technical Documentation
+              </h2>
+              <button class="projects__button">
+                <span class="projects__button-icon"></span>
+                See details
+              </button>
+            </div>
+            <div class="projects__details">
+              <p class="projects__description">
+                Javascript's technical documentation made for freeCodeCamp's
+                Responsive Web Design Certification
+              </p>
+              <a
+                href="https://dimitridasilva.github.io/FCC-Technical-Documentation-Page.github.io/"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><img
+                  src="/img/external-logo-icon.svg"
+                  alt="external-logo-icon"
+                  class="projects__icons"
+              /></a>
+              <a
+                href="https://github.com/DimitriDaSilva/FCC-Technical-Documentation-Page.github.io"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><img
+                  src="/img/gituhub-logo.svg"
+                  alt="gituhub-logo"
+                  class="projects__icons"
+              /></a>
+            </div>
+          </div>
         </div>
       </section>
 
       <section id="contact" class="contact">
         <div class="contact__text">
-          <p class="contact__question">Looking for an amazing web developer?</p>
-          <p class="contact__chat">Let's chat</p>
+          <p class="contact__question">
+            Looking for an <span>amazing</span> web developer?
+          </p>
+          <!-- here a rotation of adjectives amazing, creative, hard working, etc. -->
+          <p class="contact__chat">Let's chat!</p>
         </div>
         <div class="contact__links">
-          <a
-            href="https://github.com/DimitriDaSilva/FCC-Technical-Documentation-Page.github.io"
-            target="_blank"
-            rel="noopener noreferrer"
-            ><img
-              src="/img/gituhub-logo.svg"
-              alt="gituhub-logo"
-              class="contact__icons"
-          /></a>
           <a
             href="https://www.linkedin.com/in/dimitri-da-silva/"
             target="_blank"
@@ -99,6 +118,17 @@
               src="/img/linkedin-logo.svg"
               alt="linkedin-logo"
               class="contact__icons"
+              id="linkedin-logo"
+          /></a>
+          <a
+            href="https://github.com/DimitriDaSilva/FCC-Technical-Documentation-Page.github.io"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><img
+              src="/img/gituhub-logo.svg"
+              alt="gituhub-logo"
+              class="contact__icons"
+              id="github-logo"
           /></a>
           <a
             href="https://twitter.com/dimtri_ds"
@@ -108,6 +138,7 @@
               src="/img/twitter-logo.svg"
               alt="twitter-logo"
               class="contact__icons"
+              id="twitter-logo"
           /></a>
           <a
             href="mailto:dimitri.gomes.da.silva@gmail.com"
@@ -117,9 +148,13 @@
               src="/img/gmail-logo.svg"
               alt="twitter-logo"
               class="contact__icons"
+              id="gmail-logo"
           /></a>
         </div>
       </section>
     </main>
+    <footer class="footer">
+      &copy 2020, Dimitri Da Silva
+    </footer>
   </body>
 </html>
