@@ -262,9 +262,9 @@ header {
   filter: invert(27%) sepia(0%) saturate(4089%) hue-rotate(28deg)
     brightness(84%) contrast(69%);
   float: left;
-  width: 20px;
-  height: 20px;
-  margin-right: 20px;
+  width: 24px;
+  height: 24px;
+  margin-right: 5px;
 }
 
 .projects__description,
