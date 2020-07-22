@@ -198,8 +198,8 @@ header {
 .projects__background-color {
   background: var(--flashy-color);
   opacity: 0.7;
-  width: 82vw;
-  height: 82vw;
+  width: 83vw;
+  height: 83vw;
   z-index: 1;
   border-radius: 2px;
   position: absolute;
@@ -207,8 +207,8 @@ header {
 
 .projects__background-img {
   object-fit: cover;
-  width: 82vw;
-  height: 82vw;
+  width: 83vw;
+  height: 83vw;
   position: absolute;
   z-index: 0;
   border-radius: 2px;
@@ -216,8 +216,8 @@ header {
 
 .projects__content {
   z-index: 2;
-  width: 82vw;
-  height: 82vw;
+  width: 83vw;
+  height: 83vw;
   display: flex;
   justify-content: center;
   align-items: center;
