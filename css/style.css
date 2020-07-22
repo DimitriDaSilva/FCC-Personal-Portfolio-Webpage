@@ -258,7 +258,7 @@ header {
 }
 
 .projects__button-icon {
-  background: url("../../img/eye.svg") no-repeat;
+  background: url(img/eye.svg) no-repeat;
   filter: invert(27%) sepia(0%) saturate(4089%) hue-rotate(28deg)
     brightness(84%) contrast(69%);
   float: left;
