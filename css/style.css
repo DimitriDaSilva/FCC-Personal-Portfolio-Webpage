@@ -289,12 +289,6 @@ header {
   margin-right: 8px;
 }
 
-.projects__button:focus {
-  .projects__highlight {
-    display: none;
-  }
-}
-
 .projects__description,
 .projects__icons {
   display: none;
